@@ -1,0 +1,23 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large / regenerable data (the dashboard only needs comments_clean.csv and data/reports/)
+data/raw_comments.jsonl
+data/raw_comments.partial.jsonl
+data/*.tmp
+data/*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+# Full pipeline: extraction + scoring + EDA (includes the dashboard dependencies).
+-r requirements.txt
+google-api-python-client>=2.100
+python-dotenv>=1.0
+scipy>=1.11
+matplotlib>=3.8
+
+# Optional ML backend (set TOXICITY_BACKEND=transformer):
+# torch
+# detoxify
